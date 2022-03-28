@@ -7,6 +7,9 @@ The purpose of the app is to provide the private investor with quantitative data
 
 
 Login using dummy user:
+
 E-mail: test.testsson@test.com
+
 Pswd: test123
+
 When logged in, try to search for the more established companies, to avoid bugs and crashes, i.e. AAPL, FB, BABA, TSLA, AMD etc.
