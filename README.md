@@ -1,5 +1,5 @@
 # FinalyticaAppUnfinishedVersion
-Unfinished version of Finalytica app (iOS). For showcasing purposes only.
+Unfinished version of Finalytica app (iOS). For showcasing purposes only. Launch .xcworkspace file.
 
 
 Unfinished version of Finalytica app (iOS), thus containing several bugs, unfinished UI, etc. Copy of private repo, made public. For showcasing purposes only.
