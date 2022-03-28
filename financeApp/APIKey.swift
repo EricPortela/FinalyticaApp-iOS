@@ -8,8 +8,6 @@
 
 import Foundation
 
-//let apiKey = "81b0fcbc66a84fde19d92e64f2846956"
-
 
 public var apiKey: String {
   get {
