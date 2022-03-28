@@ -1,0 +1,1139 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074664AB260E753D002B6F1C /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074664AA260E753D002B6F1C /* Structs.swift */; };
+		076AAC9526358E7700D639C0 /* FilterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076AAC9426358E7700D639C0 /* FilterCollectionViewCell.swift */; };
+		076AAC9926358EBC00D639C0 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076AAC9826358EBC00D639C0 /* FilterViewController.swift */; };
+		076E1F47263469430048C1B5 /* StockScreenerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E1F46263469430048C1B5 /* StockScreenerCollectionViewCell.swift */; };
+		076E1F4E263485BE0048C1B5 /* ScreenerCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076E1F4D263485BE0048C1B5 /* ScreenerCollectionReusableView.swift */; };
+		078B62992614FB46005EB80A /* ChartsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B62982614FB46005EB80A /* ChartsExtensions.swift */; };
+		521630A92715A3B60096BC2C /* FinalyzeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521630A82715A3B60096BC2C /* FinalyzeCollectionViewCell.swift */; };
+		522445B927088EF000565350 /* HistoryGrowthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522445B827088EF000565350 /* HistoryGrowthCollectionViewCell.swift */; };
+		522445BB2709C42100565350 /* HorizontalAnalysisCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522445BA2709C42100565350 /* HorizontalAnalysisCollectionReusableView.swift */; };
+		522445BD270A2AF300565350 /* AnalysisStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522445BC270A2AF300565350 /* AnalysisStructs.swift */; };
+		522B1302272B4B6D00A63211 /* RatioBarChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B1301272B4B6D00A63211 /* RatioBarChartCell.swift */; };
+		522B1304272B4B7D00A63211 /* RatioPieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522B1303272B4B7D00A63211 /* RatioPieChartCell.swift */; };
+		523970E3277391DF00A22B2A /* SearchIndexCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523970E2277391DF00A22B2A /* SearchIndexCollectionReusableView.swift */; };
+		526212FF27F186AB00499465 /* FMP-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 526212FE27F186AB00499465 /* FMP-Info.plist */; };
+		52777C5126EB3AE000CE3792 /* AddIndexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52777C5026EB3AE000CE3792 /* AddIndexCollectionViewCell.swift */; };
+		528C9096272F003900F074E1 /* HorizontalAnalysisFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C9095272F003900F074E1 /* HorizontalAnalysisFooter.swift */; };
+		52AF76B52714DD7000316E08 /* HorizontalAnalysisHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF76B42714DD7000316E08 /* HorizontalAnalysisHeaderCollectionReusableView.swift */; };
+		52DA0C0326CD55AB00D689E6 /* NewsCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA0C0226CD55AB00D689E6 /* NewsCollectionReusableView.swift */; };
+		52DA0C0526CD76F300D689E6 /* RankingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA0C0426CD76F300D689E6 /* RankingCollectionReusableView.swift */; };
+		52DA0C0726D984ED00D689E6 /* FavoriteStocksListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA0C0626D984ED00D689E6 /* FavoriteStocksListCollectionViewCell.swift */; };
+		52DA0C0926DE2E8200D689E6 /* EditMajorIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DA0C0826DE2E8200D689E6 /* EditMajorIndexViewController.swift */; };
+		52E27A1427231F8300772AC5 /* 78472-like.json in Resources */ = {isa = PBXBuildFile; fileRef = 52E27A1327231F8300772AC5 /* 78472-like.json */; };
+		5C1F8B8D26AC683B006457AC /* HorizontalQuickAnalysisCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B8C26AC683B006457AC /* HorizontalQuickAnalysisCollectionViewCell.swift */; };
+		5C1F8B8F26B40AE7006457AC /* SeeFullListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B8E26B40AE7006457AC /* SeeFullListCollectionViewCell.swift */; };
+		5C1F8B9126B436AD006457AC /* IndexGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9026B436AD006457AC /* IndexGraphViewController.swift */; };
+		5C1F8B9326B436F2006457AC /* VolumeBarChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9226B436F2006457AC /* VolumeBarChartCollectionViewCell.swift */; };
+		5C1F8B9526B436FC006457AC /* IndexGraphCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9426B436FC006457AC /* IndexGraphCollectionViewCell.swift */; };
+		5C1F8B9726B4371C006457AC /* IndexGraphCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9626B4371C006457AC /* IndexGraphCollectionReusableView.swift */; };
+		5C1F8B9B26B439B9006457AC /* FavoriteStocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9A26B439B9006457AC /* FavoriteStocksViewController.swift */; };
+		5C1F8B9D26B43BB2006457AC /* FavoriteStocksCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F8B9C26B43BB2006457AC /* FavoriteStocksCollectionViewCell.swift */; };
+		5C330DCB250D2F9900F1E814 /* FundPopUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C330DCA250D2F9900F1E814 /* FundPopUpCollectionViewCell.swift */; };
+		5C47286923C0AAE100E6C2A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47286823C0AAE100E6C2A8 /* AppDelegate.swift */; };
+		5C47286B23C0AAE100E6C2A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47286A23C0AAE100E6C2A8 /* SceneDelegate.swift */; };
+		5C47286D23C0AAE100E6C2A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47286C23C0AAE100E6C2A8 /* ViewController.swift */; };
+		5C47287023C0AAE100E6C2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C47286E23C0AAE100E6C2A8 /* Main.storyboard */; };
+		5C47287223C0AAE200E6C2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C47287123C0AAE200E6C2A8 /* Assets.xcassets */; };
+		5C47287523C0AAE200E6C2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C47287323C0AAE200E6C2A8 /* LaunchScreen.storyboard */; };
+		5C4DE42126C30FC600EE5086 /* SearchCompanyCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DE42026C30FC600EE5086 /* SearchCompanyCollectionReusableView.swift */; };
+		5C4DE42326C319D400EE5086 /* MajorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DE42226C319D400EE5086 /* MajorCollectionViewCell.swift */; };
+		5C4DE42626C3375E00EE5086 /* HeaderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4DE42526C3375E00EE5086 /* HeaderCollectionViewCell.swift */; };
+		5C59EE1226A1E26200406C60 /* DetailedFinancialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C59EE1126A1E26200406C60 /* DetailedFinancialsViewController.swift */; };
+		5C59EE1526A1F52E00406C60 /* FinancialStatementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C59EE1426A1F52E00406C60 /* FinancialStatementsCollectionViewCell.swift */; };
+		5C59EE1726A2C75400406C60 /* FinancialItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C59EE1626A2C75400406C60 /* FinancialItemCollectionViewCell.swift */; };
+		5C6F904B26A1CCB900172C67 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F904A26A1CCB900172C67 /* DetailsViewController.swift */; };
+		5C6F904E26A1CCDA00172C67 /* aboutCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F904D26A1CCDA00172C67 /* aboutCollectionViewCell.swift */; };
+		5C6F905326A1CCF800172C67 /* PressReleaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905026A1CCF700172C67 /* PressReleaseTableViewCell.swift */; };
+		5C6F905426A1CCF800172C67 /* DashboardCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905126A1CCF700172C67 /* DashboardCollectionReusableView.swift */; };
+		5C6F905526A1CCF800172C67 /* DashboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905226A1CCF800172C67 /* DashboardCollectionViewCell.swift */; };
+		5C6F905726A1CD0C00172C67 /* ExpandableCellSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905626A1CD0C00172C67 /* ExpandableCellSection.swift */; };
+		5C6F905D26A1CD1F00172C67 /* FinancialsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905926A1CD1D00172C67 /* FinancialsCollectionViewCell.swift */; };
+		5C6F905E26A1CD1F00172C67 /* FinancialStatementCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905A26A1CD1E00172C67 /* FinancialStatementCollectionReusableView.swift */; };
+		5C6F905F26A1CD1F00172C67 /* FViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905B26A1CD1E00172C67 /* FViewController.swift */; };
+		5C6F906026A1CD1F00172C67 /* ChartSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F905C26A1CD1E00172C67 /* ChartSettingsViewController.swift */; };
+		5C6F906526A1CD3500172C67 /* RatioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906226A1CD3400172C67 /* RatioViewController.swift */; };
+		5C6F906626A1CD3500172C67 /* KPICollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906326A1CD3500172C67 /* KPICollectionReusableView.swift */; };
+		5C6F906726A1CD3500172C67 /* CategoryRatioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906426A1CD3500172C67 /* CategoryRatioCollectionViewCell.swift */; };
+		5C6F906C26A1CD4B00172C67 /* KPICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906926A1CD4B00172C67 /* KPICollectionViewCell.swift */; };
+		5C6F906D26A1CD4B00172C67 /* historicalKPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906A26A1CD4B00172C67 /* historicalKPIViewController.swift */; };
+		5C6F906E26A1CD4B00172C67 /* KPIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F906B26A1CD4B00172C67 /* KPIViewController.swift */; };
+		5C6F907326A1CD6000172C67 /* CustomRatioAnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907026A1CD5F00172C67 /* CustomRatioAnalysisViewController.swift */; };
+		5C6F907426A1CD6000172C67 /* HistoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907126A1CD6000172C67 /* HistoryCollectionViewCell.swift */; };
+		5C6F907526A1CD6000172C67 /* LatestRatioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907226A1CD6000172C67 /* LatestRatioCollectionViewCell.swift */; };
+		5C6F907A26A1CD9300172C67 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907726A1CD9200172C67 /* WebViewController.swift */; };
+		5C6F907B26A1CD9300172C67 /* SECTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907826A1CD9200172C67 /* SECTableViewCell.swift */; };
+		5C6F907C26A1CD9300172C67 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F907926A1CD9300172C67 /* TestViewController.swift */; };
+		5C6F908A26A1CDCA00172C67 /* LineGraphCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908226A1CDC800172C67 /* LineGraphCollectionViewCell.swift */; };
+		5C6F908B26A1CDCA00172C67 /* CombinedChartCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908326A1CDC800172C67 /* CombinedChartCollectionViewCell.swift */; };
+		5C6F908C26A1CDCA00172C67 /* ProfileContainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908426A1CDC900172C67 /* ProfileContainerCollectionViewCell.swift */; };
+		5C6F908D26A1CDCA00172C67 /* AboutCompanyTextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908526A1CDC900172C67 /* AboutCompanyTextCollectionViewCell.swift */; };
+		5C6F908E26A1CDCA00172C67 /* OverviewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908626A1CDC900172C67 /* OverviewCollectionViewCell.swift */; };
+		5C6F908F26A1CDCA00172C67 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908726A1CDC900172C67 /* CalendarCollectionViewCell.swift */; };
+		5C6F909026A1CDCA00172C67 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908826A1CDCA00172C67 /* ProfileCollectionViewCell.swift */; };
+		5C6F909126A1CDCA00172C67 /* TopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F908926A1CDCA00172C67 /* TopCollectionViewCell.swift */; };
+		5C6F909626A1CDE600172C67 /* PressReleaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6F909526A1CDE600172C67 /* PressReleaseViewController.swift */; };
+		5C770F4126C813AD00C26B59 /* MajorIndexCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F4026C813AD00C26B59 /* MajorIndexCollectionReusableView.swift */; };
+		5C770F4326C858A200C26B59 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F4226C858A200C26B59 /* NewsCollectionViewCell.swift */; };
+		5C770F4A26C99A0300C26B59 /* SegmentedNewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C770F4926C99A0300C26B59 /* SegmentedNewsCollectionViewCell.swift */; };
+		5C8D6E90242EA32C00867DA8 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D6E8F242EA32C00867DA8 /* SearchViewController.swift */; };
+		5C9198AA243BFC7100B93099 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C9198A9243BFC7100B93099 /* GoogleService-Info.plist */; };
+		5C9198B0243C7C5F00B93099 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9198AF243C7C5F00B93099 /* LoginViewController.swift */; };
+		5C9198B4243CD5FD00B93099 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9198B3243CD5FD00B93099 /* ThirdViewController.swift */; };
+		5C95837E265AA2E000887C52 /* MajorIndexCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95837D265AA2E000887C52 /* MajorIndexCollectionViewCell.swift */; };
+		5C958382265C1FBA00887C52 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C958381265C1FBA00887C52 /* APIKey.swift */; };
+		5C958384265C45D000887C52 /* FavoriteStocksGraphCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C958383265C45D000887C52 /* FavoriteStocksGraphCollectionViewCell.swift */; };
+		5C97A6FA26B474790012DAE8 /* FavoriteStocksCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97A6F926B474790012DAE8 /* FavoriteStocksCollectionReusableView.swift */; };
+		5C97A6FC26B4A3780012DAE8 /* FavoriteStocksTopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97A6FB26B4A3770012DAE8 /* FavoriteStocksTopCollectionViewCell.swift */; };
+		5C97ECF124705F1A007A59AD /* IndexCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C97ECF024705F1A007A59AD /* IndexCollectionReusableView.swift */; };
+		5CA8FF3724B6596E00407C10 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA8FF3624B6596E00407C10 /* SecondViewController.swift */; };
+		5CC137182509791000878DFF /* MutualFundsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC137172509791000878DFF /* MutualFundsController.swift */; };
+		5CC1371A2509792E00878DFF /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC137192509792E00878DFF /* CollectionViewCell.swift */; };
+		5CC1372425098A3A00878DFF /* AboutFundScreener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1372325098A3A00878DFF /* AboutFundScreener.swift */; };
+		5CC13730250D0A9A00878DFF /* FundPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC1372F250D0A9A00878DFF /* FundPopUpViewController.swift */; };
+		5CC74ABC250E1B0500347261 /* HoldingsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC74ABB250E1B0500347261 /* HoldingsCollectionViewCell.swift */; };
+		5CC74ABF250E724800347261 /* DatePopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC74ABE250E724800347261 /* DatePopUpViewController.swift */; };
+		5CEC91A7266041B00037F1A6 /* RankingListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC91A6266041B00037F1A6 /* RankingListCollectionViewCell.swift */; };
+		5CEC91A9266255C80037F1A6 /* SegmentedControlCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEC91A8266255C80037F1A6 /* SegmentedControlCollectionViewCell.swift */; };
+		8782F636B5817EC850DEFCF7 /* Pods_financeApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5956B81652CE7BB991A053 /* Pods_financeApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074664AA260E753D002B6F1C /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		076AAC9426358E7700D639C0 /* FilterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCollectionViewCell.swift; sourceTree = "<group>"; };
+		076AAC9826358EBC00D639C0 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		076E1F46263469430048C1B5 /* StockScreenerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockScreenerCollectionViewCell.swift; sourceTree = "<group>"; };
+		076E1F4D263485BE0048C1B5 /* ScreenerCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenerCollectionReusableView.swift; sourceTree = "<group>"; };
+		078B62982614FB46005EB80A /* ChartsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsExtensions.swift; sourceTree = "<group>"; };
+		4F1A1665887B7A81B172DE53 /* Pods-financeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financeApp.debug.xcconfig"; path = "Target Support Files/Pods-financeApp/Pods-financeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		521630A82715A3B60096BC2C /* FinalyzeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalyzeCollectionViewCell.swift; sourceTree = "<group>"; };
+		522445B827088EF000565350 /* HistoryGrowthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryGrowthCollectionViewCell.swift; sourceTree = "<group>"; };
+		522445BA2709C42100565350 /* HorizontalAnalysisCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAnalysisCollectionReusableView.swift; sourceTree = "<group>"; };
+		522445BC270A2AF300565350 /* AnalysisStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisStructs.swift; sourceTree = "<group>"; };
+		522B1301272B4B6D00A63211 /* RatioBarChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioBarChartCell.swift; sourceTree = "<group>"; };
+		522B1303272B4B7D00A63211 /* RatioPieChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatioPieChartCell.swift; sourceTree = "<group>"; };
+		523970E2277391DF00A22B2A /* SearchIndexCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchIndexCollectionReusableView.swift; sourceTree = "<group>"; };
+		526212FE27F186AB00499465 /* FMP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FMP-Info.plist"; sourceTree = "<group>"; };
+		52777C5026EB3AE000CE3792 /* AddIndexCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIndexCollectionViewCell.swift; sourceTree = "<group>"; };
+		528C9095272F003900F074E1 /* HorizontalAnalysisFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAnalysisFooter.swift; sourceTree = "<group>"; };
+		52AF76B42714DD7000316E08 /* HorizontalAnalysisHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalAnalysisHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		52DA0C0226CD55AB00D689E6 /* NewsCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionReusableView.swift; sourceTree = "<group>"; };
+		52DA0C0426CD76F300D689E6 /* RankingCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingCollectionReusableView.swift; sourceTree = "<group>"; };
+		52DA0C0626D984ED00D689E6 /* FavoriteStocksListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksListCollectionViewCell.swift; sourceTree = "<group>"; };
+		52DA0C0826DE2E8200D689E6 /* EditMajorIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMajorIndexViewController.swift; sourceTree = "<group>"; };
+		52E27A1327231F8300772AC5 /* 78472-like.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "78472-like.json"; sourceTree = "<group>"; };
+		5C1F8B8C26AC683B006457AC /* HorizontalQuickAnalysisCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalQuickAnalysisCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C1F8B8E26B40AE7006457AC /* SeeFullListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeFullListCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C1F8B9026B436AD006457AC /* IndexGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexGraphViewController.swift; sourceTree = "<group>"; };
+		5C1F8B9226B436F2006457AC /* VolumeBarChartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeBarChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C1F8B9426B436FC006457AC /* IndexGraphCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexGraphCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C1F8B9626B4371C006457AC /* IndexGraphCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexGraphCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C1F8B9A26B439B9006457AC /* FavoriteStocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksViewController.swift; sourceTree = "<group>"; };
+		5C1F8B9C26B43BB2006457AC /* FavoriteStocksCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C330DCA250D2F9900F1E814 /* FundPopUpCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundPopUpCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C47286523C0AAE100E6C2A8 /* financeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = financeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C47286823C0AAE100E6C2A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C47286A23C0AAE100E6C2A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5C47286C23C0AAE100E6C2A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C47286F23C0AAE100E6C2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C47287123C0AAE200E6C2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C47287423C0AAE200E6C2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C47287623C0AAE200E6C2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C4DE42026C30FC600EE5086 /* SearchCompanyCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCompanyCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C4DE42226C319D400EE5086 /* MajorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MajorCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C4DE42526C3375E00EE5086 /* HeaderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C59EE1126A1E26200406C60 /* DetailedFinancialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedFinancialsViewController.swift; sourceTree = "<group>"; };
+		5C59EE1426A1F52E00406C60 /* FinancialStatementsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialStatementsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C59EE1626A2C75400406C60 /* FinancialItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancialItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F904A26A1CCB900172C67 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		5C6F904D26A1CCDA00172C67 /* aboutCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = aboutCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F905026A1CCF700172C67 /* PressReleaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressReleaseTableViewCell.swift; sourceTree = "<group>"; };
+		5C6F905126A1CCF700172C67 /* DashboardCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C6F905226A1CCF800172C67 /* DashboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F905626A1CD0C00172C67 /* ExpandableCellSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableCellSection.swift; sourceTree = "<group>"; };
+		5C6F905926A1CD1D00172C67 /* FinancialsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F905A26A1CD1E00172C67 /* FinancialStatementCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancialStatementCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C6F905B26A1CD1E00172C67 /* FViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FViewController.swift; sourceTree = "<group>"; };
+		5C6F905C26A1CD1E00172C67 /* ChartSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartSettingsViewController.swift; sourceTree = "<group>"; };
+		5C6F906226A1CD3400172C67 /* RatioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatioViewController.swift; sourceTree = "<group>"; };
+		5C6F906326A1CD3500172C67 /* KPICollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPICollectionReusableView.swift; sourceTree = "<group>"; };
+		5C6F906426A1CD3500172C67 /* CategoryRatioCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryRatioCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F906926A1CD4B00172C67 /* KPICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPICollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F906A26A1CD4B00172C67 /* historicalKPIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = historicalKPIViewController.swift; sourceTree = "<group>"; };
+		5C6F906B26A1CD4B00172C67 /* KPIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KPIViewController.swift; sourceTree = "<group>"; };
+		5C6F907026A1CD5F00172C67 /* CustomRatioAnalysisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRatioAnalysisViewController.swift; sourceTree = "<group>"; };
+		5C6F907126A1CD6000172C67 /* HistoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F907226A1CD6000172C67 /* LatestRatioCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestRatioCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F907726A1CD9200172C67 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		5C6F907826A1CD9200172C67 /* SECTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SECTableViewCell.swift; sourceTree = "<group>"; };
+		5C6F907926A1CD9300172C67 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		5C6F908226A1CDC800172C67 /* LineGraphCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineGraphCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908326A1CDC800172C67 /* CombinedChartCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedChartCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908426A1CDC900172C67 /* ProfileContainerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileContainerCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908526A1CDC900172C67 /* AboutCompanyTextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutCompanyTextCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908626A1CDC900172C67 /* OverviewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverviewCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908726A1CDC900172C67 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908826A1CDCA00172C67 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F908926A1CDCA00172C67 /* TopCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C6F909526A1CDE600172C67 /* PressReleaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PressReleaseViewController.swift; sourceTree = "<group>"; };
+		5C770F4026C813AD00C26B59 /* MajorIndexCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorIndexCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C770F4226C858A200C26B59 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C770F4926C99A0300C26B59 /* SegmentedNewsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedNewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C8D6E8F242EA32C00867DA8 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5C9198A9243BFC7100B93099 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C9198AF243C7C5F00B93099 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5C9198B3243CD5FD00B93099 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		5C95837D265AA2E000887C52 /* MajorIndexCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorIndexCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C958381265C1FBA00887C52 /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		5C958383265C45D000887C52 /* FavoriteStocksGraphCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksGraphCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C97A6F926B474790012DAE8 /* FavoriteStocksCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksCollectionReusableView.swift; sourceTree = "<group>"; };
+		5C97A6FB26B4A3770012DAE8 /* FavoriteStocksTopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteStocksTopCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C97ECF024705F1A007A59AD /* IndexCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexCollectionReusableView.swift; sourceTree = "<group>"; };
+		5CA8FF3624B6596E00407C10 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5CC137172509791000878DFF /* MutualFundsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutualFundsController.swift; sourceTree = "<group>"; };
+		5CC137192509792E00878DFF /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		5CC1372325098A3A00878DFF /* AboutFundScreener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFundScreener.swift; sourceTree = "<group>"; };
+		5CC1372F250D0A9A00878DFF /* FundPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundPopUpViewController.swift; sourceTree = "<group>"; };
+		5CC74ABB250E1B0500347261 /* HoldingsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldingsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5CC74ABE250E724800347261 /* DatePopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopUpViewController.swift; sourceTree = "<group>"; };
+		5CEC91A6266041B00037F1A6 /* RankingListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingListCollectionViewCell.swift; sourceTree = "<group>"; };
+		5CEC91A8266255C80037F1A6 /* SegmentedControlCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControlCollectionViewCell.swift; sourceTree = "<group>"; };
+		B1F1C2C2FBD14E8C8A2DF9B6 /* Pods-financeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-financeApp.release.xcconfig"; path = "Target Support Files/Pods-financeApp/Pods-financeApp.release.xcconfig"; sourceTree = "<group>"; };
+		BF5956B81652CE7BB991A053 /* Pods_financeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_financeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C47286223C0AAE100E6C2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8782F636B5817EC850DEFCF7 /* Pods_financeApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F2D686CD3750940CD7F2D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F1A1665887B7A81B172DE53 /* Pods-financeApp.debug.xcconfig */,
+				B1F1C2C2FBD14E8C8A2DF9B6 /* Pods-financeApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		074664A9260E74EE002B6F1C /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				078B62982614FB46005EB80A /* ChartsExtensions.swift */,
+				074664AA260E753D002B6F1C /* Structs.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		076AAC9326358E3D00D639C0 /* FilterView */ = {
+			isa = PBXGroup;
+			children = (
+				076AAC9826358EBC00D639C0 /* FilterViewController.swift */,
+				076AAC9426358E7700D639C0 /* FilterCollectionViewCell.swift */,
+			);
+			path = FilterView;
+			sourceTree = "<group>";
+		};
+		522B12FA272B3FE200A63211 /* Top Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908926A1CDCA00172C67 /* TopCollectionViewCell.swift */,
+				5C6F908426A1CDC900172C67 /* ProfileContainerCollectionViewCell.swift */,
+				5C6F908826A1CDCA00172C67 /* ProfileCollectionViewCell.swift */,
+			);
+			path = "Top Section";
+			sourceTree = "<group>";
+		};
+		522B12FB272B4A3D00A63211 /* Price Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908226A1CDC800172C67 /* LineGraphCollectionViewCell.swift */,
+				521630A82715A3B60096BC2C /* FinalyzeCollectionViewCell.swift */,
+			);
+			path = "Price Section";
+			sourceTree = "<group>";
+		};
+		522B12FC272B4A8500A63211 /* About Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908526A1CDC900172C67 /* AboutCompanyTextCollectionViewCell.swift */,
+			);
+			path = "About Section";
+			sourceTree = "<group>";
+		};
+		522B12FD272B4A9700A63211 /* Insights Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908626A1CDC900172C67 /* OverviewCollectionViewCell.swift */,
+			);
+			path = "Insights Section";
+			sourceTree = "<group>";
+		};
+		522B12FE272B4AB600A63211 /* Financials Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908326A1CDC800172C67 /* CombinedChartCollectionViewCell.swift */,
+			);
+			path = "Financials Section";
+			sourceTree = "<group>";
+		};
+		522B12FF272B4AC100A63211 /* Calendar Section */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F908726A1CDC900172C67 /* CalendarCollectionViewCell.swift */,
+			);
+			path = "Calendar Section";
+			sourceTree = "<group>";
+		};
+		522B1300272B4B2200A63211 /* Ratios Section */ = {
+			isa = PBXGroup;
+			children = (
+				522B1301272B4B6D00A63211 /* RatioBarChartCell.swift */,
+				522B1303272B4B7D00A63211 /* RatioPieChartCell.swift */,
+			);
+			path = "Ratios Section";
+			sourceTree = "<group>";
+		};
+		52777C5226EB3B0E00CE3792 /* AddIndex */ = {
+			isa = PBXGroup;
+			children = (
+				52DA0C0826DE2E8200D689E6 /* EditMajorIndexViewController.swift */,
+				523970E2277391DF00A22B2A /* SearchIndexCollectionReusableView.swift */,
+				52777C5026EB3AE000CE3792 /* AddIndexCollectionViewCell.swift */,
+			);
+			path = AddIndex;
+			sourceTree = "<group>";
+		};
+		528C9092272EFFD800F074E1 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				52AF76B42714DD7000316E08 /* HorizontalAnalysisHeaderCollectionReusableView.swift */,
+				522445BA2709C42100565350 /* HorizontalAnalysisCollectionReusableView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		528C9093272EFFDE00F074E1 /* Footers */ = {
+			isa = PBXGroup;
+			children = (
+				528C9095272F003900F074E1 /* HorizontalAnalysisFooter.swift */,
+			);
+			path = Footers;
+			sourceTree = "<group>";
+		};
+		528C9094272EFFE900F074E1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				522445B827088EF000565350 /* HistoryGrowthCollectionViewCell.swift */,
+				5C1F8B8C26AC683B006457AC /* HorizontalQuickAnalysisCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		52AF76B22714DAD500316E08 /* Horizontal Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				528C9092272EFFD800F074E1 /* Headers */,
+				528C9093272EFFDE00F074E1 /* Footers */,
+				528C9094272EFFE900F074E1 /* Cells */,
+			);
+			path = "Horizontal Analysis";
+			sourceTree = "<group>";
+		};
+		52AF76B32714DAE900316E08 /* Financial Statement */ = {
+			isa = PBXGroup;
+			children = (
+				5C59EE1426A1F52E00406C60 /* FinancialStatementsCollectionViewCell.swift */,
+				5C59EE1626A2C75400406C60 /* FinancialItemCollectionViewCell.swift */,
+			);
+			path = "Financial Statement";
+			sourceTree = "<group>";
+		};
+		5C1F8B9826B43859006457AC /* Index View */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F8B9026B436AD006457AC /* IndexGraphViewController.swift */,
+				5C1F8B9426B436FC006457AC /* IndexGraphCollectionViewCell.swift */,
+				5C1F8B9226B436F2006457AC /* VolumeBarChartCollectionViewCell.swift */,
+				5C1F8B9626B4371C006457AC /* IndexGraphCollectionReusableView.swift */,
+			);
+			path = "Index View";
+			sourceTree = "<group>";
+		};
+		5C1F8B9926B4389D006457AC /* Favorite Stocks List */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F8B9A26B439B9006457AC /* FavoriteStocksViewController.swift */,
+				5C97A6FB26B4A3770012DAE8 /* FavoriteStocksTopCollectionViewCell.swift */,
+				5C1F8B9C26B43BB2006457AC /* FavoriteStocksCollectionViewCell.swift */,
+				5C97A6F926B474790012DAE8 /* FavoriteStocksCollectionReusableView.swift */,
+			);
+			path = "Favorite Stocks List";
+			sourceTree = "<group>";
+		};
+		5C47285C23C0AAE100E6C2A8 = {
+			isa = PBXGroup;
+			children = (
+				526212FE27F186AB00499465 /* FMP-Info.plist */,
+				5C47286723C0AAE100E6C2A8 /* financeApp */,
+				5C47286623C0AAE100E6C2A8 /* Products */,
+				03F2D686CD3750940CD7F2D0 /* Pods */,
+				96716CAE4EE935F54B875DA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C47286623C0AAE100E6C2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C47286523C0AAE100E6C2A8 /* financeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C47286723C0AAE100E6C2A8 /* financeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5C47286823C0AAE100E6C2A8 /* AppDelegate.swift */,
+				5C47286A23C0AAE100E6C2A8 /* SceneDelegate.swift */,
+				5C958381265C1FBA00887C52 /* APIKey.swift */,
+				074664A9260E74EE002B6F1C /* Structs */,
+				5CC1371D2509826800878DFF /* LoginController */,
+				5CC1371F250982E700878DFF /* MainPageController */,
+				5C6F909C26A1CFE000172C67 /* SearchController */,
+				5C6F909D26A1D03500172C67 /* CompanyViewController */,
+				5C59EE1026A1E08600406C60 /* MoreFinancialData */,
+				5CCA3083251E047D005BD325 /* StockScreener */,
+				5CC137142509789200878DFF /* MutualFundsScreener */,
+				5CC1371C2509824900878DFF /* ProfileSettingsController */,
+				5C47286E23C0AAE100E6C2A8 /* Main.storyboard */,
+				5C47287123C0AAE200E6C2A8 /* Assets.xcassets */,
+				5C47287323C0AAE200E6C2A8 /* LaunchScreen.storyboard */,
+				5C47287623C0AAE200E6C2A8 /* Info.plist */,
+				5C9198A9243BFC7100B93099 /* GoogleService-Info.plist */,
+			);
+			path = financeApp;
+			sourceTree = "<group>";
+		};
+		5C4DE42426C3374800EE5086 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DE42526C3375E00EE5086 /* HeaderCollectionViewCell.swift */,
+				5C770F4826C999DD00C26B59 /* Major Indexes */,
+				5C770F4526C999A300C26B59 /* Favorites */,
+				5C770F4726C999C300C26B59 /* News */,
+				5C770F4426C9996000C26B59 /* Ranking */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5C4DE42726C3376200EE5086 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5C97ECF024705F1A007A59AD /* IndexCollectionReusableView.swift */,
+				5C4DE42026C30FC600EE5086 /* SearchCompanyCollectionReusableView.swift */,
+				5C770F4026C813AD00C26B59 /* MajorIndexCollectionReusableView.swift */,
+				52DA0C0226CD55AB00D689E6 /* NewsCollectionReusableView.swift */,
+				52DA0C0426CD76F300D689E6 /* RankingCollectionReusableView.swift */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		5C59EE1026A1E08600406C60 /* MoreFinancialData */ = {
+			isa = PBXGroup;
+			children = (
+				5C59EE1126A1E26200406C60 /* DetailedFinancialsViewController.swift */,
+				522445BC270A2AF300565350 /* AnalysisStructs.swift */,
+				5C59EE1326A1E6F900406C60 /* Custom Cells */,
+			);
+			path = MoreFinancialData;
+			sourceTree = "<group>";
+		};
+		5C59EE1326A1E6F900406C60 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52AF76B32714DAE900316E08 /* Financial Statement */,
+				52AF76B22714DAD500316E08 /* Horizontal Analysis */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		5C6F909C26A1CFE000172C67 /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				5C8D6E8F242EA32C00867DA8 /* SearchViewController.swift */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		5C6F909D26A1D03500172C67 /* CompanyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				52E27A1327231F8300772AC5 /* 78472-like.json */,
+				5C6F904A26A1CCB900172C67 /* DetailsViewController.swift */,
+				5C6F909F26A1D06A00172C67 /* Custom Cells */,
+				5C6F90A026A1D33C00172C67 /* Company Insights */,
+			);
+			path = CompanyViewController;
+			sourceTree = "<group>";
+		};
+		5C6F909F26A1D06A00172C67 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				522B12FA272B3FE200A63211 /* Top Section */,
+				522B12FB272B4A3D00A63211 /* Price Section */,
+				522B12FC272B4A8500A63211 /* About Section */,
+				522B12FD272B4A9700A63211 /* Insights Section */,
+				522B12FE272B4AB600A63211 /* Financials Section */,
+				522B12FF272B4AC100A63211 /* Calendar Section */,
+				522B1300272B4B2200A63211 /* Ratios Section */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		5C6F90A026A1D33C00172C67 /* Company Insights */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F904D26A1CCDA00172C67 /* aboutCollectionViewCell.swift */,
+				5C6F905626A1CD0C00172C67 /* ExpandableCellSection.swift */,
+				5C6F90A726A1D67400172C67 /* Press Releases */,
+				5C6F90A626A1D64A00172C67 /* Custom Cells */,
+				5C6F90A526A1D44000172C67 /* Financials */,
+				5C6F90A226A1D3DC00172C67 /* Ratios */,
+				5C6F90A126A1D3CF00172C67 /* SEC Reports */,
+			);
+			path = "Company Insights";
+			sourceTree = "<group>";
+		};
+		5C6F90A126A1D3CF00172C67 /* SEC Reports */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F907826A1CD9200172C67 /* SECTableViewCell.swift */,
+				5C6F907926A1CD9300172C67 /* TestViewController.swift */,
+				5C6F907726A1CD9200172C67 /* WebViewController.swift */,
+			);
+			path = "SEC Reports";
+			sourceTree = "<group>";
+		};
+		5C6F90A226A1D3DC00172C67 /* Ratios */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F906226A1CD3400172C67 /* RatioViewController.swift */,
+				5C6F906326A1CD3500172C67 /* KPICollectionReusableView.swift */,
+				5C6F906426A1CD3500172C67 /* CategoryRatioCollectionViewCell.swift */,
+				5C6F90A426A1D3ED00172C67 /* Categories Tapped */,
+				5C6F90A326A1D3E700172C67 /* Custom Tapped */,
+			);
+			path = Ratios;
+			sourceTree = "<group>";
+		};
+		5C6F90A326A1D3E700172C67 /* Custom Tapped */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F907026A1CD5F00172C67 /* CustomRatioAnalysisViewController.swift */,
+				5C6F907126A1CD6000172C67 /* HistoryCollectionViewCell.swift */,
+				5C6F907226A1CD6000172C67 /* LatestRatioCollectionViewCell.swift */,
+			);
+			path = "Custom Tapped";
+			sourceTree = "<group>";
+		};
+		5C6F90A426A1D3ED00172C67 /* Categories Tapped */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F906B26A1CD4B00172C67 /* KPIViewController.swift */,
+				5C6F906926A1CD4B00172C67 /* KPICollectionViewCell.swift */,
+				5C6F906A26A1CD4B00172C67 /* historicalKPIViewController.swift */,
+			);
+			path = "Categories Tapped";
+			sourceTree = "<group>";
+		};
+		5C6F90A526A1D44000172C67 /* Financials */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F905C26A1CD1E00172C67 /* ChartSettingsViewController.swift */,
+				5C6F905926A1CD1D00172C67 /* FinancialsCollectionViewCell.swift */,
+				5C6F905A26A1CD1E00172C67 /* FinancialStatementCollectionReusableView.swift */,
+				5C6F905B26A1CD1E00172C67 /* FViewController.swift */,
+			);
+			path = Financials;
+			sourceTree = "<group>";
+		};
+		5C6F90A626A1D64A00172C67 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F905126A1CCF700172C67 /* DashboardCollectionReusableView.swift */,
+				5C6F905226A1CCF800172C67 /* DashboardCollectionViewCell.swift */,
+				5C6F905026A1CCF700172C67 /* PressReleaseTableViewCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		5C6F90A726A1D67400172C67 /* Press Releases */ = {
+			isa = PBXGroup;
+			children = (
+				5C6F909526A1CDE600172C67 /* PressReleaseViewController.swift */,
+			);
+			path = "Press Releases";
+			sourceTree = "<group>";
+		};
+		5C770F4426C9996000C26B59 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				5CEC91A6266041B00037F1A6 /* RankingListCollectionViewCell.swift */,
+				5CEC91A8266255C80037F1A6 /* SegmentedControlCollectionViewCell.swift */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		5C770F4526C999A300C26B59 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F8B8E26B40AE7006457AC /* SeeFullListCollectionViewCell.swift */,
+				5C958383265C45D000887C52 /* FavoriteStocksGraphCollectionViewCell.swift */,
+				52DA0C0626D984ED00D689E6 /* FavoriteStocksListCollectionViewCell.swift */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		5C770F4726C999C300C26B59 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				5C770F4226C858A200C26B59 /* NewsCollectionViewCell.swift */,
+				5C770F4926C99A0300C26B59 /* SegmentedNewsCollectionViewCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		5C770F4826C999DD00C26B59 /* Major Indexes */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DE42226C319D400EE5086 /* MajorCollectionViewCell.swift */,
+				5C95837D265AA2E000887C52 /* MajorIndexCollectionViewCell.swift */,
+				52777C5226EB3B0E00CE3792 /* AddIndex */,
+			);
+			path = "Major Indexes";
+			sourceTree = "<group>";
+		};
+		5C95837C265AA29300887C52 /* CustomMainPageCells */ = {
+			isa = PBXGroup;
+			children = (
+				5C4DE42726C3376200EE5086 /* Headers */,
+				5C4DE42426C3374800EE5086 /* Cells */,
+			);
+			path = CustomMainPageCells;
+			sourceTree = "<group>";
+		};
+		5CC137142509789200878DFF /* MutualFundsScreener */ = {
+			isa = PBXGroup;
+			children = (
+				5CC137172509791000878DFF /* MutualFundsController.swift */,
+				5CC137192509792E00878DFF /* CollectionViewCell.swift */,
+				5CC74ABD250E721A00347261 /* DatePopUp */,
+				5CC13733250D114F00878DFF /* FundsPopUp */,
+				5CC74AC0250E73EC00347261 /* FundHoldings */,
+			);
+			path = MutualFundsScreener;
+			sourceTree = "<group>";
+		};
+		5CC1371C2509824900878DFF /* ProfileSettingsController */ = {
+			isa = PBXGroup;
+			children = (
+				5C9198B3243CD5FD00B93099 /* ThirdViewController.swift */,
+			);
+			path = ProfileSettingsController;
+			sourceTree = "<group>";
+		};
+		5CC1371D2509826800878DFF /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				5C9198AF243C7C5F00B93099 /* LoginViewController.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		5CC1371F250982E700878DFF /* MainPageController */ = {
+			isa = PBXGroup;
+			children = (
+				5C47286C23C0AAE100E6C2A8 /* ViewController.swift */,
+				5C95837C265AA29300887C52 /* CustomMainPageCells */,
+				5C1F8B9826B43859006457AC /* Index View */,
+				5C1F8B9926B4389D006457AC /* Favorite Stocks List */,
+			);
+			path = MainPageController;
+			sourceTree = "<group>";
+		};
+		5CC13733250D114F00878DFF /* FundsPopUp */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1372F250D0A9A00878DFF /* FundPopUpViewController.swift */,
+				5C330DCA250D2F9900F1E814 /* FundPopUpCollectionViewCell.swift */,
+			);
+			path = FundsPopUp;
+			sourceTree = "<group>";
+		};
+		5CC74ABD250E721A00347261 /* DatePopUp */ = {
+			isa = PBXGroup;
+			children = (
+				5CC74ABE250E724800347261 /* DatePopUpViewController.swift */,
+			);
+			path = DatePopUp;
+			sourceTree = "<group>";
+		};
+		5CC74AC0250E73EC00347261 /* FundHoldings */ = {
+			isa = PBXGroup;
+			children = (
+				5CC1372325098A3A00878DFF /* AboutFundScreener.swift */,
+				5CC74ABB250E1B0500347261 /* HoldingsCollectionViewCell.swift */,
+			);
+			path = FundHoldings;
+			sourceTree = "<group>";
+		};
+		5CCA3083251E047D005BD325 /* StockScreener */ = {
+			isa = PBXGroup;
+			children = (
+				5CA8FF3624B6596E00407C10 /* SecondViewController.swift */,
+				076E1F46263469430048C1B5 /* StockScreenerCollectionViewCell.swift */,
+				076E1F4D263485BE0048C1B5 /* ScreenerCollectionReusableView.swift */,
+				076AAC9326358E3D00D639C0 /* FilterView */,
+			);
+			path = StockScreener;
+			sourceTree = "<group>";
+		};
+		96716CAE4EE935F54B875DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF5956B81652CE7BB991A053 /* Pods_financeApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C47286423C0AAE100E6C2A8 /* financeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C47287923C0AAE200E6C2A8 /* Build configuration list for PBXNativeTarget "financeApp" */;
+			buildPhases = (
+				048B5398FA26931D82E3B68F /* [CP] Check Pods Manifest.lock */,
+				5C47286123C0AAE100E6C2A8 /* Sources */,
+				5C47286223C0AAE100E6C2A8 /* Frameworks */,
+				5C47286323C0AAE100E6C2A8 /* Resources */,
+				D7A8C1CE945003DA8BB6EC5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = financeApp;
+			productName = financeApp;
+			productReference = 5C47286523C0AAE100E6C2A8 /* financeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C47285D23C0AAE100E6C2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Eric Portela";
+				TargetAttributes = {
+					5C47286423C0AAE100E6C2A8 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5C47286023C0AAE100E6C2A8 /* Build configuration list for PBXProject "financeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C47285C23C0AAE100E6C2A8;
+			productRefGroup = 5C47286623C0AAE100E6C2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C47286423C0AAE100E6C2A8 /* financeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C47286323C0AAE100E6C2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52E27A1427231F8300772AC5 /* 78472-like.json in Resources */,
+				5C47287523C0AAE200E6C2A8 /* LaunchScreen.storyboard in Resources */,
+				5C47287223C0AAE200E6C2A8 /* Assets.xcassets in Resources */,
+				5C9198AA243BFC7100B93099 /* GoogleService-Info.plist in Resources */,
+				526212FF27F186AB00499465 /* FMP-Info.plist in Resources */,
+				5C47287023C0AAE100E6C2A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048B5398FA26931D82E3B68F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-financeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7A8C1CE945003DA8BB6EC5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-financeApp/Pods-financeApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-financeApp/Pods-financeApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-financeApp/Pods-financeApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C47286123C0AAE100E6C2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522445B927088EF000565350 /* HistoryGrowthCollectionViewCell.swift in Sources */,
+				522B1304272B4B7D00A63211 /* RatioPieChartCell.swift in Sources */,
+				5C6F908B26A1CDCA00172C67 /* CombinedChartCollectionViewCell.swift in Sources */,
+				52DA0C0726D984ED00D689E6 /* FavoriteStocksListCollectionViewCell.swift in Sources */,
+				522B1302272B4B6D00A63211 /* RatioBarChartCell.swift in Sources */,
+				5C6F906026A1CD1F00172C67 /* ChartSettingsViewController.swift in Sources */,
+				5C59EE1526A1F52E00406C60 /* FinancialStatementsCollectionViewCell.swift in Sources */,
+				5C1F8B9D26B43BB2006457AC /* FavoriteStocksCollectionViewCell.swift in Sources */,
+				5C9198B0243C7C5F00B93099 /* LoginViewController.swift in Sources */,
+				5CC1371A2509792E00878DFF /* CollectionViewCell.swift in Sources */,
+				5C770F4126C813AD00C26B59 /* MajorIndexCollectionReusableView.swift in Sources */,
+				5C59EE1226A1E26200406C60 /* DetailedFinancialsViewController.swift in Sources */,
+				5C8D6E90242EA32C00867DA8 /* SearchViewController.swift in Sources */,
+				52AF76B52714DD7000316E08 /* HorizontalAnalysisHeaderCollectionReusableView.swift in Sources */,
+				5C330DCB250D2F9900F1E814 /* FundPopUpCollectionViewCell.swift in Sources */,
+				5C6F906526A1CD3500172C67 /* RatioViewController.swift in Sources */,
+				5C1F8B9726B4371C006457AC /* IndexGraphCollectionReusableView.swift in Sources */,
+				5C4DE42126C30FC600EE5086 /* SearchCompanyCollectionReusableView.swift in Sources */,
+				5CEC91A9266255C80037F1A6 /* SegmentedControlCollectionViewCell.swift in Sources */,
+				52DA0C0926DE2E8200D689E6 /* EditMajorIndexViewController.swift in Sources */,
+				5C6F908A26A1CDCA00172C67 /* LineGraphCollectionViewCell.swift in Sources */,
+				5C6F905726A1CD0C00172C67 /* ExpandableCellSection.swift in Sources */,
+				5C6F909626A1CDE600172C67 /* PressReleaseViewController.swift in Sources */,
+				5C6F909026A1CDCA00172C67 /* ProfileCollectionViewCell.swift in Sources */,
+				5CC13730250D0A9A00878DFF /* FundPopUpViewController.swift in Sources */,
+				5C6F905F26A1CD1F00172C67 /* FViewController.swift in Sources */,
+				5C1F8B9126B436AD006457AC /* IndexGraphViewController.swift in Sources */,
+				5C59EE1726A2C75400406C60 /* FinancialItemCollectionViewCell.swift in Sources */,
+				5C6F906726A1CD3500172C67 /* CategoryRatioCollectionViewCell.swift in Sources */,
+				5C6F907A26A1CD9300172C67 /* WebViewController.swift in Sources */,
+				5C6F909126A1CDCA00172C67 /* TopCollectionViewCell.swift in Sources */,
+				5C4DE42326C319D400EE5086 /* MajorCollectionViewCell.swift in Sources */,
+				5C6F904E26A1CCDA00172C67 /* aboutCollectionViewCell.swift in Sources */,
+				5CA8FF3724B6596E00407C10 /* SecondViewController.swift in Sources */,
+				5C6F907326A1CD6000172C67 /* CustomRatioAnalysisViewController.swift in Sources */,
+				5C6F908E26A1CDCA00172C67 /* OverviewCollectionViewCell.swift in Sources */,
+				5C6F906C26A1CD4B00172C67 /* KPICollectionViewCell.swift in Sources */,
+				5C6F907C26A1CD9300172C67 /* TestViewController.swift in Sources */,
+				5C6F906626A1CD3500172C67 /* KPICollectionReusableView.swift in Sources */,
+				076E1F4E263485BE0048C1B5 /* ScreenerCollectionReusableView.swift in Sources */,
+				528C9096272F003900F074E1 /* HorizontalAnalysisFooter.swift in Sources */,
+				5C47286D23C0AAE100E6C2A8 /* ViewController.swift in Sources */,
+				5C1F8B8F26B40AE7006457AC /* SeeFullListCollectionViewCell.swift in Sources */,
+				5CC1372425098A3A00878DFF /* AboutFundScreener.swift in Sources */,
+				5C958384265C45D000887C52 /* FavoriteStocksGraphCollectionViewCell.swift in Sources */,
+				076E1F47263469430048C1B5 /* StockScreenerCollectionViewCell.swift in Sources */,
+				5C4DE42626C3375E00EE5086 /* HeaderCollectionViewCell.swift in Sources */,
+				521630A92715A3B60096BC2C /* FinalyzeCollectionViewCell.swift in Sources */,
+				5C770F4A26C99A0300C26B59 /* SegmentedNewsCollectionViewCell.swift in Sources */,
+				5C6F905326A1CCF800172C67 /* PressReleaseTableViewCell.swift in Sources */,
+				5CC74ABC250E1B0500347261 /* HoldingsCollectionViewCell.swift in Sources */,
+				5C6F906D26A1CD4B00172C67 /* historicalKPIViewController.swift in Sources */,
+				5C6F904B26A1CCB900172C67 /* DetailsViewController.swift in Sources */,
+				522445BD270A2AF300565350 /* AnalysisStructs.swift in Sources */,
+				5C47286923C0AAE100E6C2A8 /* AppDelegate.swift in Sources */,
+				5C97A6FA26B474790012DAE8 /* FavoriteStocksCollectionReusableView.swift in Sources */,
+				5C1F8B9326B436F2006457AC /* VolumeBarChartCollectionViewCell.swift in Sources */,
+				5C6F907B26A1CD9300172C67 /* SECTableViewCell.swift in Sources */,
+				5C6F905D26A1CD1F00172C67 /* FinancialsCollectionViewCell.swift in Sources */,
+				52777C5126EB3AE000CE3792 /* AddIndexCollectionViewCell.swift in Sources */,
+				52DA0C0526CD76F300D689E6 /* RankingCollectionReusableView.swift in Sources */,
+				5C770F4326C858A200C26B59 /* NewsCollectionViewCell.swift in Sources */,
+				523970E3277391DF00A22B2A /* SearchIndexCollectionReusableView.swift in Sources */,
+				5CC74ABF250E724800347261 /* DatePopUpViewController.swift in Sources */,
+				5C6F907426A1CD6000172C67 /* HistoryCollectionViewCell.swift in Sources */,
+				5C47286B23C0AAE100E6C2A8 /* SceneDelegate.swift in Sources */,
+				5CEC91A7266041B00037F1A6 /* RankingListCollectionViewCell.swift in Sources */,
+				5C97ECF124705F1A007A59AD /* IndexCollectionReusableView.swift in Sources */,
+				5C1F8B8D26AC683B006457AC /* HorizontalQuickAnalysisCollectionViewCell.swift in Sources */,
+				076AAC9526358E7700D639C0 /* FilterCollectionViewCell.swift in Sources */,
+				5C958382265C1FBA00887C52 /* APIKey.swift in Sources */,
+				5C1F8B9B26B439B9006457AC /* FavoriteStocksViewController.swift in Sources */,
+				5C95837E265AA2E000887C52 /* MajorIndexCollectionViewCell.swift in Sources */,
+				5C6F906E26A1CD4B00172C67 /* KPIViewController.swift in Sources */,
+				5C1F8B9526B436FC006457AC /* IndexGraphCollectionViewCell.swift in Sources */,
+				074664AB260E753D002B6F1C /* Structs.swift in Sources */,
+				5C6F908F26A1CDCA00172C67 /* CalendarCollectionViewCell.swift in Sources */,
+				5C6F908D26A1CDCA00172C67 /* AboutCompanyTextCollectionViewCell.swift in Sources */,
+				522445BB2709C42100565350 /* HorizontalAnalysisCollectionReusableView.swift in Sources */,
+				5C6F908C26A1CDCA00172C67 /* ProfileContainerCollectionViewCell.swift in Sources */,
+				5C97A6FC26B4A3780012DAE8 /* FavoriteStocksTopCollectionViewCell.swift in Sources */,
+				078B62992614FB46005EB80A /* ChartsExtensions.swift in Sources */,
+				076AAC9926358EBC00D639C0 /* FilterViewController.swift in Sources */,
+				5C9198B4243CD5FD00B93099 /* ThirdViewController.swift in Sources */,
+				5C6F905426A1CCF800172C67 /* DashboardCollectionReusableView.swift in Sources */,
+				5C6F907526A1CD6000172C67 /* LatestRatioCollectionViewCell.swift in Sources */,
+				5C6F905E26A1CD1F00172C67 /* FinancialStatementCollectionReusableView.swift in Sources */,
+				5C6F905526A1CCF800172C67 /* DashboardCollectionViewCell.swift in Sources */,
+				52DA0C0326CD55AB00D689E6 /* NewsCollectionReusableView.swift in Sources */,
+				5CC137182509791000878DFF /* MutualFundsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C47286E23C0AAE100E6C2A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C47286F23C0AAE100E6C2A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C47287323C0AAE200E6C2A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C47287423C0AAE200E6C2A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C47287723C0AAE200E6C2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C47287823C0AAE200E6C2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C47287A23C0AAE200E6C2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1A1665887B7A81B172DE53 /* Pods-financeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				INFOPLIST_FILE = financeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.ericsFinanceApp.financeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C47287B23C0AAE200E6C2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F1C2C2FBD14E8C8A2DF9B6 /* Pods-financeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6FLGWGDT4G;
+				INFOPLIST_FILE = financeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericportela.ericsFinanceApp.financeApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C47286023C0AAE100E6C2A8 /* Build configuration list for PBXProject "financeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47287723C0AAE200E6C2A8 /* Debug */,
+				5C47287823C0AAE200E6C2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C47287923C0AAE200E6C2A8 /* Build configuration list for PBXNativeTarget "financeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47287A23C0AAE200E6C2A8 /* Debug */,
+				5C47287B23C0AAE200E6C2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C47285D23C0AAE100E6C2A8 /* Project object */;
+}
