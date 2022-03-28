@@ -12,4 +12,4 @@ E-mail: test.testsson@test.com
 
 Pswd: test123
 
-When logged in, try to search for the more established companies, to avoid bugs and crashes, i.e. AAPL, FB, BABA, TSLA, AMD etc.
+When logged in, try to search for the more established companies (to avoid bugs and crashes), i.e. AAPL, FB, BABA, TSLA, AMD etc.
