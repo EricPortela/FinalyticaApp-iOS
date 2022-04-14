@@ -16,11 +16,14 @@
 
 
 # Notice!
+:warning: E-mail me to get an API-key!!
+
 :warning: Unfinished version of Finalytica app (iOS). 
 
 :warning: For showcasing purposes only. 
 
 :warning: Launch .xcworkspace file when testing out!
+
 
 
 # Features
