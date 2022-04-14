@@ -1,3 +1,7 @@
+![Finalytica Web Page Logo](https://user-images.githubusercontent.com/58792679/163328909-1c654f20-3c22-4881-b768-f7201c0270de.png)
+
+
+
 # FinalyticaAppUnfinishedVersion
 Unfinished version of Finalytica app (iOS). For showcasing purposes only. Launch .xcworkspace file.
 
