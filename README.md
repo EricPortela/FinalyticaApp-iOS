@@ -1,4 +1,4 @@
-![Finalytica Web Page Logo](https://user-images.githubusercontent.com/58792679/163328909-1c654f20-3c22-4881-b768-f7201c0270de.png|width=200)
+![Finalytica Web Page Logo](https://user-images.githubusercontent.com/58792679/163328909-1c654f20-3c22-4881-b768-f7201c0270de.png|width=400px)
 
 
 
