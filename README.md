@@ -27,19 +27,19 @@
 
 
 # Features
-:ballot_box_with_check: Search function covering majority of publicly listed companies on the major American Stock Exchange (search by ticker or company name).
+🔍 Search function covering majority of publicly listed companies on the major American Stock Exchange (search by ticker or company name).
 
-:ballot_box_with_check: Closing prices and trading volumes for major indices and stocks.
+📕 Closing prices and trading volumes for major indices and stocks.
 
-:ballot_box_with_check: Add your beloved stocks to your favorite list.
+❤️ Add your beloved stocks to your favorite list.
 
-:ballot_box_with_check: Ranking lists (gainers, losers and most traded).
+🔢 Ranking lists (gainers, losers and most traded).
 
-:ballot_box_with_check: "FINALYZE" function - Gives you a solid and wide overview of the financials of the company. Supplies user with a horizontal and vertical analysis of the company. Currently only supporting the income statement.
+🐦 "FINALYZE" function - Gives you a solid and wide overview of the financials of the company. Supplies user with a horizontal and vertical analysis of the company. Currently only supporting the income statement.
 
-:ballot_box_with_check: Links to all SEC reports/fillings.
+🔗 Links to all SEC reports/fillings.
 
-:ballot_box_with_check: Historical financial ratios and metrics (+10 years).
+📂 Historical financial ratios and metrics (+10 years).
 
 
 # About
