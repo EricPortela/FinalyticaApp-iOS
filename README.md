@@ -3,7 +3,7 @@
      <br>
      <br>
      <a> Finalytica is an iOS app that enables easy access to quantitative data for publicly listed American companies, through a UI-friendly mobile        
-     application. Made as a project besides studies in Computer Science (by Eric Portela). 
+     application. Made as a project besides studies in Computer Science at LTH (by Eric Portela). 
      </a>
 </p>
      
