@@ -17,7 +17,7 @@
 # Notice!
 :no_entry: THIS VERSION IS BUILT UPON UIKIT AND IS DEPRECATED! I HAVE DECIDED TO SWITCH TO SWIFTUI INSTEAD!
 
-:white_check_mark: CHECK OUT NEW REPO: <p align="center"> <a href="https://github.com/EricPortela/FinalyticaSwiftUI" target="_blank">NEW PROJECT USING SWIFTUI</a> </p>
+:white_check_mark: CHECK OUT NEW REPO: <a href="https://github.com/EricPortela/FinalyticaSwiftUI" target="_blank">NEW PROJECT USING SWIFTUI</a>
 
 
 # Notice!
